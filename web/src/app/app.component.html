@@ -1,9 +1,17 @@
-<div class="box box-green m-3 ta-c">
-    <h1>app</h1>
-</div>
-<div class="row">
-    <div class="col-12">
-        <router-outlet></router-outlet>
+<div class="row m-0 flex-nowrap ">
+    <div class="col w-200 full-screen box box-light box-noradius">
+        <h5 class="ta-c mt-1 mb-2">myCloudBerry</h5>
+
+        <uxwb-list [color]="'info'" [style]="'btn'" [(key)]="menuKey" [data]="menu" (selected)="changeRoute($event)"></uxwb-list>
+    </div>
+    <div class="col bg-light">
+        <h2 class="ta-c">{{title}}</h2>
+        <hr>
+        <div class="row">
+            <div class="col-12">
+                <router-outlet></router-outlet>
+            </div>
+        </div>
     </div>
 </div>
 

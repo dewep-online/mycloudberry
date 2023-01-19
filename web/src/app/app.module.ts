@@ -7,10 +7,22 @@ import { UxwbServicesModule } from '@uxwb/services';
 import { environment } from '../environments/environment';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { ErrorPageComponent } from './modules/error-page/error-page.component';
+import { FirewallComponent } from './modules/firewall/firewall.component';
+import { HomeComponent } from './modules/home/home.component';
+import { RedirectComponent } from './modules/redirect/redirect.component';
+import { SchedulerComponent } from './modules/scheduler/scheduler.component';
+import { SitesComponent } from './modules/sites/sites.component';
 
 @NgModule({
   declarations: [
     AppComponent,
+    FirewallComponent,
+    HomeComponent,
+    ErrorPageComponent,
+    SitesComponent,
+    RedirectComponent,
+    SchedulerComponent,
   ],
   imports: [
     BrowserModule,

@@ -1947,9 +1947,9 @@
     eslint-visitor-keys "^3.3.0"
 
 "@uxwb/components@^14.0.0":
-  version "14.0.5"
-  resolved "https://registry.yarnpkg.com/@uxwb/components/-/components-14.0.5.tgz#856e2571197efa03ffb9710fe9794be6280c879e"
-  integrity sha512-S1wgT70T0tPzkGNB09+yvOMUN22eCFM+WgVz0j3LptndQ1H5essyTbjC47bfISTOpcsuf4aX7x1Xy/LpMK2VEg==
+  version "14.0.7"
+  resolved "https://registry.yarnpkg.com/@uxwb/components/-/components-14.0.7.tgz#b250091bb2d822a24f9f224b1e842f62dc728c1e"
+  integrity sha512-d4MLZEL0e9BlCk0A3KW+i0S+o74Hj2d/UjA+tAYxpIW4WpH9vNvy6iCCoRoKfk5Q6KuhMBaOJHXaDa56/EOEug==
   dependencies:
     tslib "^2.3.0"
 
